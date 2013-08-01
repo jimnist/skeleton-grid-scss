@@ -5,7 +5,9 @@ i need a fixed grid system for a project that uses [spree commerce](http://spree
 
 i need to use a grid for a layout that can work with existing template code (which specifies grid containers and columns via classes in the html) and for pages that i create and templates that i override, i want to keep that out of the markup and use SCSS includes.
 
-i also am including variables for breakpoints that are used for all calculations. these which can easily be overridden to provide a bigger maximum grid
+i also am including variables for breakpoints that are used for all calculations. these which can easily be overridden to provide a bigger maximum grid.
+
+the variables include the option to have different gutter and margin widths, which Skeleton does not.
 
 skeleton-grid-scss is based on Skeleton v1.2.
 

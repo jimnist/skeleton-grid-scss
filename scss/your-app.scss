@@ -4,6 +4,48 @@
 @import "includes/layout";
 @import "includes/base";
 
+// true colors
+$lemon: rgba(255, 244, 79, .44);
+$limon: rgba(180, 255, 103, .33);
+$peachie: rgba(255, 229, 204, .44);
+
 h1 {
+  line-height: 1.25em;
   background-color: $limon;
+  margin-top: 40px;
+  margin-bottom: 7px;
+  padding-left: 8px;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.25em;
+  background-color: $peachie;
+  color: #888;
+  text-align: center;
+  margin: 2px 0 7px 0;
+}
+
+h5 {
+  background-color: $lemon;
+  text-align: right;
+  margin-top: 0;
+  font-weight: normal;
+  padding-right: 8px;
+}
+
+hr {
+  border-style: solid;
+  color: #aaa;
+}
+
+p {
+  // margin-left: 10px;
+}
+
+footer {
+  // @include container;
+  background-color: $peachie;
+  height: 44px;
+  margin-top: 22px;
 }

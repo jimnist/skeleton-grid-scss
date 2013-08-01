@@ -4,12 +4,6 @@
 // see: https://github.com/ngn33r/skeleton-grid-scss
 //
 
-// true colors
-$hard-lime: rgb(0, 255, 51);
-$limon: rgb(180, 255, 103);
-$lemon: rgb(255, 244, 79);
-$pinkie: rgb(255, 105, 180);
-$peachie: rgb(255, 229, 204);
 
 /* some stuff from Skeleton's base.css and documentation-assets/docs.css */
 body {
@@ -19,8 +13,6 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "Georgia", "Times New Roman", serif;
-  font-weight: normal;
 }
 
 .example-grid {

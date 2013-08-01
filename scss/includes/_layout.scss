@@ -25,14 +25,16 @@
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media #{$smaller-than-tablet} {}
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media #{$mobile-landscape} {
-  #grid-debug-info:after { content: " #{strip-units($mobile-landscape-width)}" }
+@media #{$smaller-than-tablet} {
+  #sidebar { display: none; }
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media #{$mobile-portrait} {
   #grid-debug-info:after { content: " #{strip-units($mobile-portrait-width)}" }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media #{$mobile-landscape} {
+  #grid-debug-info:after { content: " #{strip-units($mobile-landscape-width)}" }
 }

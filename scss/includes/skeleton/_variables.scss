@@ -1,7 +1,9 @@
 // configuration variables for skeleton grid
 //
 
-// these can be overridden to modify the grid
+// override these to modify the grid.
+// this might help: http://gridcalculator.dk/#/960/12/20/10
+//
 $base-width: 960px;
 $tablet-width: 768px;
 $mobile-landscape-width: 420px;
@@ -9,18 +11,15 @@ $mobile-portrait-width: 300px;
 
 $num-columns: 16;
 $margin: 10px;
+$gutter: 10px;
 
+// variables for media queries
+//
 $smaller-than-base: "only screen and (max-width: #{$base-width - 1})";
 $tablet: "only screen and (min-width: #{$tablet-width}) and (max-width: #{$base-width - 1})";
 $smaller-than-tablet: "only screen and (max-width: #{$tablet-width - 1})";
-$mobile-landscape: "only screen and (min-width: #{$mobile-landscape-width}) and (max-width: #{$tablet-width - 1})";
 $mobile-portrait: "only screen and (max-width: #{$mobile-landscape-width - 1})";
+$mobile-landscape: "only screen and (min-width: #{$mobile-landscape-width}) and (max-width: #{$tablet-width - 1})";
 
-
-// these variables represent our breakpoints
-// $portrait: "only screen";
-// $landscape: "only screen and (min-width: #{$mobilePortraitWidth})";
-// $tablet: "only screen and (min-width: #{$mobileLandscapeWidth})";
-// $large: "only screen and (min-width: #{$tabletWidth})";
 
 
