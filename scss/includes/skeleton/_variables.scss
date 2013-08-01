@@ -34,6 +34,3 @@ $tablet: "only screen and (min-width: #{$tablet-width}) and (max-width: #{$base-
 $smaller-than-tablet: "only screen and (max-width: #{$tablet-width - 1})";
 $mobile-portrait: "only screen and (max-width: #{$mobile-landscape-width - 1})";
 $mobile-landscape: "only screen and (min-width: #{$mobile-landscape-width}) and (max-width: #{$tablet-width - 1})";
-
-
-

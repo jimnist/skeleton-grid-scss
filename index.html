@@ -20,57 +20,61 @@
 
     <div id="sidebar" class="four columns">
       <hr />
+      <p>
+        <strong>NOTE:</strong> this test pages is built around a <strong>16</strong> column grid. you can change the size of the breakpoints
+        in the code and this will still work, but changing the number of columns may yield unexpected results.
+      </p>
     </div>
 
     <div class="twelve columns">
       <hr />
     <!-- <div class="clearfix" id="grid"> -->
       <p>
-        this 12 column wide <strong>MARKED UP GRID</strong> uses skeleton classes in the html.
+        these 12 column wide <strong>MARKED UP</strong> grids use skeleton classes in the html.
         it should look and behave like one below and the grid on the <a href="http://www.getskeleton.com/">skeleton</a> site.
       </p>
-      <div class="example-grid">
-        <div class="one column alpha">One</div>
-        <div class="eleven columns omega">Eleven</div>
-        <div class="two columns alpha">Two</div>
-        <div class="ten columns omega">Ten</div>
-        <div class="three columns alpha">Three</div>
-        <div class="nine columns omega">Nine</div>
-        <div class="four columns alpha">Four</div>
-        <div class="eight columns omega">Eight</div>
-        <div class="five columns alpha">Five</div>
-        <div class="seven columns omega">Seven</div>
-        <div class="six columns alpha">Six</div>
-        <div class="six columns omega">Six</div>
-        <div class="seven columns alpha">Seven</div>
-        <div class="five columns omega">Five</div>
-        <div class="eight columns alpha">Eight</div>
-        <div class="four  columns omega">Four</div>
-        <div class="nine columns alpha">Nine</div>
-        <div class="three columns omega">Three</div>
-        <div class="ten columns alpha">Ten</div>
-        <div class="two columns omega">Two</div>
-        <div class="eleven columns alpha">Eleven</div>
-        <div class="one column omega">One</div>
+      <div class="example-grid clearfix">
+        <div class="one column alpha"><div class="innards">One</div></div>
+        <div class="eleven columns omega"><div class="innards">Eleven</div></div>
+        <div class="two columns alpha"><div class="innards">Two</div></div>
+        <div class="ten columns omega"><div class="innards">Ten</div></div>
+        <div class="three columns alpha"><div class="innards">Three</div></div>
+        <div class="nine columns omega"><div class="innards">Nine</div></div>
+        <div class="four columns alpha"><div class="innards">Four</div></div>
+        <div class="eight columns omega"><div class="innards">Eight</div></div>
+        <div class="five columns alpha"><div class="innards">Five</div></div>
+        <div class="seven columns omega"><div class="innards">Seven</div></div>
+        <div class="six columns alpha"><div class="innards">Six</div></div>
+        <div class="six columns omega"><div class="innards">Six</div></div>
+        <div class="seven columns alpha"><div class="innards">Seven</div></div>
+        <div class="five columns omega"><div class="innards">Five</div></div>
+        <div class="eight columns alpha"><div class="innards">Eight</div></div>
+        <div class="four  columns omega"><div class="innards">Four</div></div>
+        <div class="nine columns alpha"><div class="innards">Nine</div></div>
+        <div class="three columns omega"><div class="innards">Three</div></div>
+        <div class="ten columns alpha"><div class="innards">Ten</div></div>
+        <div class="two columns omega"><div class="innards">Two</div></div>
+        <div class="eleven columns alpha"><div class="innards">Eleven</div></div>
+        <div class="one column omega"><div class="innards">One</div></div>
       </div>
 
-      <div class="example-grid">
-        <div class="twelve columns alpha omega">Twelve</div>
-        <div class="eleven columns alpha omega">Eleven</div>
-        <div class="ten columns alpha omega">Ten</div>
-        <div class="nine columns alpha omega">Nine</div>
-        <div class="eight columns alpha omega">Eight</div>
-        <div class="seven columns alpha omega">Seven</div>
-        <div class="six columns alpha omega">Six</div>
-        <div class="five columns alpha omega">Five</div>
-        <div class="four columns alpha omega">Four</div>
-        <div class="three columns alpha omega">Three</div>
-        <div class="two columns alpha omega">Two</div>
-        <div class="one column alpha omega">One</div>
+      <div class="example-grid clearfix">
+        <div class="twelve columns alpha omega"><div class="innards">Twelve</div></div>
+        <div class="eleven columns  offset-by-one alpha omega"><div class="innards">Eleven</div></div>
+        <div class="ten columns offset-by-two alpha omega"><div class="innards">Ten</div></div>
+        <div class="nine columns offset-by-three alpha omega"><div class="innards">Nine</div></div>
+        <div class="eight columns offset-by-four alpha omega"><div class="innards">Eight</div></div>
+        <div class="seven columns offset-by-five alpha omega"><div class="innards">Seven</div></div>
+        <div class="six columns offset-by-six alpha omega"><div class="innards">Six</div></div>
+        <div class="five columns offset-by-seven alpha omega"><div class="innards">Five</div></div>
+        <div class="four columns offset-by-eight alpha omega"><div class="innards">Four</div></div>
+        <div class="three columns offset-by-nine alpha omega"><div class="innards">Three</div></div>
+        <div class="two columns offset-by-ten alpha omega"><div class="innards">Two</div></div>
+        <div class="one column offset-by-eleven alpha omega"><div class="innards">One</div></div>
       </div>
     </div>
 
   </div><!-- container -->
-  <footer>&nbsp;</footer>
+  <footer class="container">&nbsp;</footer>
 </body>
 </html>

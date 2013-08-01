@@ -30,6 +30,28 @@
   }
 }
 
+@mixin _mobile-columns($width) {
+
+  .container {
+    @for $i from 1 through $grid-columns {
+      @if ( $i == 1 ) {
+        .#{numToString($i)}.column { width: $width; }
+      }
+      .#{numToString($i)}.columns { width: $width; }
+    }
+    .one-third.column, .two-thirds.column { width: $width; }
+  }
+}
+
+@mixin _mobile-offsets {
+  $second-to-last-column: $grid-columns - 1;
+  .container {
+    @for $i from 1 through $second-to-last-column {
+      .offset-by-#{numToString($i)} { padding-left: 0; }
+    }
+  }
+}
+
 // _mobileGrid ( number $width, number $grid-columns )
 // @mixin _mobileGrid($width, $grid-columns) {
 //   .container { width: $width; }
