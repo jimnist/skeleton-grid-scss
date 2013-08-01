@@ -2,12 +2,39 @@
 
 @import "includes/skeleton/grid";
 @import "includes/layout";
-@import "includes/base";
 
 // true colors
 $lemon: rgba(255, 244, 79, .44);
 $limon: rgba(180, 255, 103, .33);
 $peachie: rgba(255, 229, 204, .44);
+
+/* some stuff from Skeleton's base.css and documentation-assets/docs.css */
+body {
+  background: #fff;
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+}
+
+.example-grid {
+  margin-bottom: 22px;
+  .column, .columns {
+    background: #ddd;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 12px;
+    font-weight: bold;
+    -moz-border-radius: 2px;
+     -webkit-border-radius: 2px;
+     border-radius: 2px;
+   }
+ }
 
 h1 {
   line-height: 1.25em;

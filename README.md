@@ -7,8 +7,6 @@ i need to use a grid for a layout that can work with existing template code (whi
 
 i also am including variables for breakpoints that are used for all calculations. these which can easily be overridden to provide a bigger maximum grid.
 
-the variables include the option to have different gutter and margin widths, which Skeleton does not.
-
 skeleton-grid-scss is based on Skeleton v1.2.
 
 Note that this is ONLY the skeleton grid, and does not include other parts of the framework.
@@ -23,6 +21,8 @@ this is a mashup of these different projects:
 
 ###TODO:
 * header for all scss files
+* include the option to have different gutter and margin widths, which Skeleton does not.
+
 
 ##files
 

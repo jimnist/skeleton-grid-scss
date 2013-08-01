@@ -9,9 +9,23 @@ $tablet-width: 768px;
 $mobile-landscape-width: 420px;
 $mobile-portrait-width: 300px;
 
-$num-columns: 16;
-$margin: 10px;
-$gutter: 10px;
+$grid-columns: 16;
+$grid-gutter: 20px;
+
+// alternate grid example
+// http://gridcalculator.dk/#/1250/16/2/1
+//
+// $base-width: 1250px;
+// $tablet-width: 768px;
+// $mobile-landscape-width: 420px;
+// $mobile-portrait-width: 300px;
+
+// $grid-columns: 16;
+// $grid-gutter: 2px;
+
+// this should be calculated
+$grid-margin: $grid-gutter / 2;
+
 
 // variables for media queries
 //
