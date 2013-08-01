@@ -17,7 +17,7 @@ this is a mashup of these different projects:
 * [Skeleton](https://github.com/dhg/Skeleton) - CSS only Boilerplate, including a responsive fixed grid
 * [skeleton-sass](https://github.com/atomicpages/skeleton-sass) - SASS port of Skeleton, includes CSS classes, but not mixins
 * [Skeleton-SASS](https://github.com/lazerwalker/Skeleton-SASS) - SASS port of Skeleton, includes mixins, but not CSS classes
-* with a little bit of inspiration from [Profound Grid](http://www.profoundgrid.com/)
+* with a some inspiration from [Profound Grid](http://www.profoundgrid.com/)
 
 ###TODO:
 * header for all scss files
@@ -30,13 +30,13 @@ this is a mashup of these different projects:
 
 ##development
 
-there are LOTS of different ways to compile the [SCSS](http://sass-lang.com/) into CSS.
+there are many ways to compile the [SCSS](http://sass-lang.com/).
 
 i normally use [Compass](http://compass-style.org/), but since this is not dependent on any of the compass features, during development, i compile with the __sass__ utility by running:
 ```
 $ sass --watch scss/your-app.scss:stylesheets/your-app.css
 ```
 
-i use [Livereload](http://livereload.com/) (on a mac) to monitor changes on the disk and refresh the browser.
+i use [Livereload](http://livereload.com/) (on a mac) to monitor changes on the disk and refresh the browser automagically.
 
 
