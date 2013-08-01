@@ -5,15 +5,22 @@ i need a fixed grid system for a project that uses [spree commerce](http://spree
 
 i need to use a grid for a layout that can work with existing template code (which specifies grid containers and columns via classes in the html) and for pages that i create and templates that i override, i want to keep that out of the markup and use SCSS includes.
 
-i also am including a slightly simpler layout, with variables for breakpoints, which can easily be overridden.
+i also am including variables for breakpoints that are used for all calculations. these which can easily be overridden to provide a bigger maximum grid
 
-this is ONLY the skeleton grid, not the other parts of the framework.
+skeleton-grid-scss is based on Skeleton v1.2.
+
+Note that this is ONLY the skeleton grid, and does not include other parts of the framework.
+
+remember that Skeleton is a mobile LAST responsive grid. otherwise, you will be confused.
 
 this is a mashup of these different projects:
 * [Skeleton](https://github.com/dhg/Skeleton) - CSS only Boilerplate, including a responsive fixed grid
 * [skeleton-sass](https://github.com/atomicpages/skeleton-sass) - SASS port of Skeleton, includes CSS classes, but not mixins
 * [Skeleton-SASS](https://github.com/lazerwalker/Skeleton-SASS) - SASS port of Skeleton, includes mixins, but not CSS classes
 * with a little bit of inspiration from [Profound Grid](http://www.profoundgrid.com/)
+
+###TODO:
+* header for all scss files
 
 ##files
 

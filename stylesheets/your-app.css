@@ -1,3 +1,62 @@
+/* #Clearing
+================================================== */
+/* Self Clearing Goodness */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.row:after,
+.clearfix:after {
+  clear: both; }
+
+.row,
+.clearfix {
+  zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* #Media Queries
+================================================== */
+#grid-debug-info:after {
+  content: " 960"; }
+
+/* ANYTHING Smaller than configured base (full) width (devices and browsers) */
+/* configured Tablet size to configured base width (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #grid-debug-info:after {
+    content: " 768"; } }
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+  #grid-debug-info:after {
+    content: " 420"; } }
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 419px) {
+  #grid-debug-info:after {
+    content: " 300"; } }
 /* some stuff from Skeleton's base.css and documentation-assets/docs.css */
 body {
   background: #fff;

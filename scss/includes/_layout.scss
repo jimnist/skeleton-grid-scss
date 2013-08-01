@@ -3,3 +3,36 @@
 //
 // see: https://github.com/ngn33r/skeleton-grid-scss
 //
+
+// THIS FILE is not part of the grid PER SE . . it's intended as an
+// example of using media queries that line up with the grid's behavior
+// and settings. it corresponds to layout.css in the Skeleton project.
+
+@import 'skeleton/variables';
+@import 'skeleton/functions';
+
+/* #Media Queries
+================================================== */
+
+#grid-debug-info:after { content: " #{strip-units($base-width)}" }
+
+/* ANYTHING Smaller than configured base (full) width (devices and browsers) */
+@media #{$smaller-than-base} {}
+
+/* configured Tablet size to configured base width (devices and browsers) */
+@media #{$tablet} {
+  #grid-debug-info:after { content: " #{strip-units($tablet-width)}" }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media #{$smaller-than-tablet} {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media #{$mobile-landscape} {
+  #grid-debug-info:after { content: " #{strip-units($mobile-landscape-width)}" }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media #{$mobile-portrait} {
+  #grid-debug-info:after { content: " #{strip-units($mobile-portrait-width)}" }
+}
