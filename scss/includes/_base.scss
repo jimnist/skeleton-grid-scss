@@ -4,17 +4,39 @@
 // see: https://github.com/ngn33r/skeleton-grid-scss
 //
 
-// some colors
+// true colors
 $hard-lime: rgb(0, 255, 51);
 $limon: rgb(180, 255, 103);
-$limon-lite: lighten($limon, 22);
-$limon-like: rgba($limon, .55);
 $lemon: rgb(255, 244, 79);
-$lemon-lite: lighten($lemon, 22);
-$lemon-like: rgba($lemon, .55);
 $pinkie: rgb(255, 105, 180);
-$pinkie-like: rgba($pinkie, .55);
-$pinkie-lite: lighten($pinkie, 22);
 $peachie: rgb(255, 229, 204);
-$peachie-like: rgba($peachie, .55);
-$peachie-lite: lighten($peachie, 2);
+
+/* some stuff from Skeleton's base.css and documentation-assets/docs.css */
+body {
+  background: #fff;
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+}
+
+.example-grid {
+
+  .column, .columns {
+    background: #ddd;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 12px;
+    font-weight: bold;
+    -moz-border-radius: 2px;
+     -webkit-border-radius: 2px;
+     border-radius: 2px;
+   }
+ }

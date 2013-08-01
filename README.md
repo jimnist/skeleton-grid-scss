@@ -1,22 +1,21 @@
 skeleton-grid-scss - IN PROGRESS
 ==================
 
-i need a fixed grid system for a project built using [spree commerce](http://spreecommerce.com/) which currently uses [Skeleton](http://www.getskeleton.com/), but in a pretty wacked way (imho).
+i need a fixed grid system for a project that uses [spree commerce](http://spreecommerce.com/) which currently uses [Skeleton](http://www.getskeleton.com/), but in a kind of wacked way (imho).
 
-i need to use a grid for a layout that can work with existing template code (which specifies grid containers and columns in the html) and for pages that i create and templates that i override, i want to keep that out of the markup and use SCSS includes.
+i need to use a grid for a layout that can work with existing template code (which specifies grid containers and columns via classes in the html) and for pages that i create and templates that i override, i want to keep that out of the markup and use SCSS includes.
 
 i also am including a slightly simpler layout, with variables for breakpoints, which can easily be overridden.
 
 this is ONLY the skeleton grid, not the other parts of the framework.
 
-this is a mashup of these differnt projects:
-* [Skeleton](https://github.com/dhg/Skeleton)
-* [skeleton-sass](https://github.com/atomicpages/skeleton-sass)
-* [Skeleton-SASS](https://github.com/lazerwalker/Skeleton-SASS)
+this is a mashup of these different projects:
+* [Skeleton](https://github.com/dhg/Skeleton) - CSS only Boilerplate, including a responsive fixed grid
+* [skeleton-sass](https://github.com/atomicpages/skeleton-sass) - SASS port of Skeleton, includes CSS classes, but not mixins
+* [Skeleton-SASS](https://github.com/lazerwalker/Skeleton-SASS) - SASS port of Skeleton, includes mixins, but not CSS classes
 * with a little bit of inspiration from [Profound Grid](http://www.profoundgrid.com/)
 
 ##files
-
 
 
 
