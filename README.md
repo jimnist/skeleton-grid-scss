@@ -24,9 +24,12 @@ this is a mashup of these differnt projects:
 
 ##development
 
-there are LOTS of different ways to compile the [SCSS code](http://sass-lang.com/) into CSS.
+there are LOTS of different ways to compile the [SCSS](http://sass-lang.com/) into CSS.
 
-i normally use [Compass](http://compass-style.org/), but since this is not dependent on any of the conpass features, during develpment, i compile with the __sass__ utility by running ```sass --watch scss/your-app.scss:stylesheets/your-app.css```.
+i normally use [Compass](http://compass-style.org/), but since this is not dependent on any of the compass features, during development, i compile with the __sass__ utility by running:
+```
+$ sass --watch scss/your-app.scss:stylesheets/your-app.css
+```
 
 i use [Livereload](http://livereload.com/) (on a mac) to monitor changes on the disk and refresh the browser.
 
