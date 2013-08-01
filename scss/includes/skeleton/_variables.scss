@@ -1,8 +1,17 @@
-// configuration variables for skeleton grid
-//
+/**
+ * SCSS version of v1.2 of the Skeleton Grid (http://www.getskeleton.com/)
+ * Skeleton grid originally authored by Dave Gamache.
+ *
+ * https://github.com/ngn33r/skeleton-grid-scss
+ *
+ * @author jim nist
+ * @copyright Copyright (c) 2013 engine-earring.com
+ * @license MIT
+ * @version 0.0.1
+ */
 
 // override these to modify the grid.
-// this might help: http://gridcalculator.dk/#/960/12/20/10
+// http://gridcalculator.dk/#/960/12/20/10
 //
 $base-width: 960px;
 $tablet-width: 768px;
@@ -25,7 +34,6 @@ $grid-gutter: 20px;
 
 // this should be calculated
 $grid-margin: $grid-gutter / 2;
-
 
 // variables for media queries
 //

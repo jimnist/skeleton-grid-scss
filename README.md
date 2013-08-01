@@ -20,22 +20,15 @@ this is a mashup of these different projects:
 * with a some inspiration from [Profound Grid](http://www.profoundgrid.com/)
 
 ###TODO:
-* header for all scss files
-* include the option to have different gutter and margin widths, which Skeleton does not.
+* include the option to have different gutter and margin widths, which Skeleton does not. (maybe)
 * make it so i can use includes in css instead of marking up the HTML
 
-
 ##files
-
-
-
-##usage
+there are very few of them. poke around. it's pretty straightforward. you might want to make adjustments to __includes/skeleton/_variables.scss__.
 
 ##development
 
-there are many ways to compile the [SCSS](http://sass-lang.com/).
-
-i normally use [Compass](http://compass-style.org/), but since this is not dependent on any of the compass features, during development, i compile with the __sass__ utility by running:
+there are many ways to compile [SCSS](http://sass-lang.com/). i normally use [Compass](http://compass-style.org/), but since this project is not dependent on any of the compass features, during development, i compile with the __sass__ utility by running:
 ```
 $ sass --watch scss/your-app.scss:stylesheets/your-app.css
 ```

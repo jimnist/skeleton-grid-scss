@@ -1,11 +1,14 @@
-//
-// skeleton grid port to scss
-//
-//
-// magic mixins
-//
-// see: https://github.com/ngn33r/skeleton-grid-scss
-//
+/**
+ * SCSS version of v1.2 of the Skeleton Grid (http://www.getskeleton.com/)
+ * Skeleton grid originally authored by Dave Gamache.
+ *
+ * https://github.com/ngn33r/skeleton-grid-scss
+ *
+ * @author jim nist
+ * @copyright Copyright (c) 2013 engine-earring.com
+ * @license MIT
+ * @version 0.0.1
+ */
 
 // El Grid
 @mixin _grid($width) {
