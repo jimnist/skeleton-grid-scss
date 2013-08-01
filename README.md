@@ -1,11 +1,11 @@
-skeleton-grid-scss - IN PROGRESS
+skeleton-grid-scss
 ==================
 
-i need a fixed grid system for a project that uses [spree commerce](http://spreecommerce.com/) which currently uses [Skeleton](http://www.getskeleton.com/), but in a kind of wacked way (imho).
+i need a fixed grid system for a project that uses [spree commerce](http://spreecommerce.com/) which currently uses [Skeleton](http://www.getskeleton.com/), but in a little bit of wacked way (imho).
 
 i need to use a grid for a layout that can work with existing template code (which specifies grid containers and columns via classes in the html) and for pages that i create and templates that i override, i want to keep that out of the markup and use SCSS includes.
 
-i also am including variables for breakpoints that are used for all calculations. these which can easily be overridden to provide a bigger maximum grid.
+i also am including variables for breakpoints that are used for calculations. these which can easily be overridden to provide a bigger maximum grid (which i need).
 
 skeleton-grid-scss is based on Skeleton v1.2.
 
@@ -22,6 +22,7 @@ this is a mashup of these different projects:
 ###TODO:
 * header for all scss files
 * include the option to have different gutter and margin widths, which Skeleton does not.
+* make it so i can use includes in css instead of marking up the HTML
 
 
 ##files
